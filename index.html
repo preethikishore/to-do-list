@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do-List</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <div class="todo">
+        <div class="todo-header">
+            <h2>To Do List</h2>
+        </div>
+        <div class="todobody">
+            <div class="addblock">
+                <input type="text" class="addfield"
+                 placeholder="Add Tasks to Complete">
+                <button class="addbutton col-3"> +</button>
+
+            </div>
+            <ul class = "tasks" id="tasks-list">
+                <li class="task">
+                    <div class="tasks-checked col-1">
+                      <input type="checkbox">
+                    </div>
+                    <div class="tasks-text col-2">Task-1</div>
+                    <div class="tasks-remove col-3"> </div>
+                </li>
+                <li class="task">
+                    <div class="tasks-checked col-1">
+                      <input type="checkbox">
+                    </div>
+                    <div class="tasks-text col-2">Task-2</div>
+                    <div class="tasks-remove col-3"> </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+   <script src="js/script.js"></script> 
+</body>
+</html>
